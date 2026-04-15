@@ -1,3 +1,6 @@
+"""
+This is a game that will decypt ecrypt your code.
+"""
 import string
 import random
 
@@ -32,13 +35,14 @@ SECRET_MESSAGES = [
     "SECRET MESSAGE",
     "CODE BREAKER",
 ]
+# changes the word into letter code 
 def encrypt_mode():
     print("\n--- Encrypt Mode ---")
     plaintext = input("Enter word: ")
     ciphertext = atbash_transform(plaintext)
     print(f"Ciphertext (Atbash): {ciphertext}\n")
 
-    
+# figure out what the code says   
 def decrypt_mode():
     print("\n--- Decrypt Mode ---")
     ciphertext = input("Enter ciphertext: ")
