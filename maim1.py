@@ -34,7 +34,7 @@ SECRET_MESSAGES = [
 ]
 def encrypt_mode():
     print("\n--- Encrypt Mode ---")
-    plaintext = input("Enter plaintext: ")
+    plaintext = input("Enter word: ")
     ciphertext = atbash_transform(plaintext)
     print(f"Ciphertext (Atbash): {ciphertext}\n")
 
