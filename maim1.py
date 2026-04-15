@@ -1,5 +1,5 @@
 """
-This is a game that will decypt ecrypt your code.
+This is a game that will decypt ecrypt your code, and so people will have fun playing it.
 """
 import string
 import random
