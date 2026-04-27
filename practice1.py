@@ -6,8 +6,9 @@ messages_list = []
 
 
 
-messages = [" I LOVE ABBY", "ABBY IS A BULLY", "ABBY IS NICE."]
-for message in messages:
-    print((messages))
+messages_list = [" I LOVE ABBY", "ABBY IS A BULLY", "ABBY IS NICE."]
+for message in messages_list:
+    print((messages_list))
 
 
+  
